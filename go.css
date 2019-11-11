@@ -2,14 +2,34 @@
 /* CSS Document */
 
 
-.centering_parent {
-    padding: 20px;              /* 余白指定 */
+.texcen {
+    padding: 200px;              /* 余白指定 */
     text-align:  center;        /* 中央寄せ */
     background-color:  #ddd;    /* 背景色指定 */
     height: 100px;              /* 高さ指定 */
 	font-family:serif;
 }
- 
+.box{
+	padding: 200px;              /* 余白指定 */
+    
+}
+
+
 .centering_item {
     
+}
+
+body {
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
