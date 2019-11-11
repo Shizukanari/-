@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.centering_parent {
+    padding: 20px;              /* 余白指定 */
+    text-align:  center;        /* 中央寄せ */
+    background-color:  #ddd;    /* 背景色指定 */
+    height: 100px;              /* 高さ指定 */
+	font-family:serif;
+}
+ 
+.centering_item {
+    
+}
