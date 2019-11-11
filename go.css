@@ -2,24 +2,43 @@
 /* CSS Document */
 
 
-.texcen {
-    padding: 200px;              /* 余白指定 */
+.bg {
+    padding: 5% 15% 50% 15%;      /* 余白指定 */
     text-align:  center;        /* 中央寄せ */
     background-color:  #ddd;    /* 背景色指定 */
     height: 100px;              /* 高さ指定 */
 	font-family:serif;
 }
-.box{
-	padding: 200px;              /* 余白指定 */
-    
+.box {
+    padding: 5% 10%;      /* 余白指定 */
+    text-align:  center;        /* 中央寄せ */
+	
+    background-color:  #ddd;    /* 背景色指定 */
+    height: 100px;              /* 高さ指定 */
+	font-family:serif;
+}
+.texcen{
+	padding: 5% 10%;              /* 余白指定 */
+    background-color:  #ddd;
 }
 
+.mess{
+	text-align-last: left;
+}
 
-.centering_item {
-    
+.sign{
+	text-align: right;
+}
+
+.day{
+	text-align: left;
+}
+.goho{
+	font-size: 1.6em;
 }
 
 body {
+	background-color:  #ddd;
     animation: fadeIn 2s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
